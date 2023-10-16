@@ -111,7 +111,7 @@
             const auth = getAuth();
 
             $(document).ready(function() {
-              $("link-login-penjual"), click(function() {
+              $("link-login-penjual").click(function() {
 
                 signInWithPopup(auth, provider)
                   .then((result) => {
